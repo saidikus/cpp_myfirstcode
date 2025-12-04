@@ -54,7 +54,7 @@ int main() {
     for(j = 0; j < stud_number; j++){
         cout<<"Enter the student grade: ";
         cin>>stud_grade; 
-        if(0 < stud_grade && stud_grade < 100){
+        if(stud_grade < 0 && stud_grade > 100){
             stud_grades [j] = stud_grade;
         }
         else{
